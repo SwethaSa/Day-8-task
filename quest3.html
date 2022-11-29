@@ -1,0 +1,54 @@
+<!-- 3. Design a contact us form with all fields as required. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact Us</title>  <!--Here the Title have been declared as well as Title image also has been given-->
+
+     <link rel = "icon" href = "https://www.pikpng.com/pngl/m/115-1157183_contacts-transparent-icons-png-download-contact-us-icon.png">
+      
+      <style>
+     label {                     /*For an aligned view used style for label which aligns all te fields in label*/
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+      }
+      
+      sup{                        /*Changing the color of the mandatory symbol with this style*/
+        color:rgb(241, 13, 59)
+      }
+    </style>                      <!--Closed the Style elements-->
+  </head>
+
+  <body>
+    <h1> Contact Us </h1>         <!--Assigned Heading-->
+    <form action=" " method="post">
+
+      <b><label>First Name:<sup color="red">*</sup></label></b>  <!--For the mandatory symbol used Sup element-->
+      <input type = "text" style="width:10;height:20px;" required>  </input> <!--Used Style to change the view of input fields-->
+       <br><br>
+
+      <b><label>Last Name:</label></b>
+      <input type = "text" style="width:10;height:20px;">  </input>
+       <br><br>
+
+      <b><label>Email:<sup color="red">*</sup></label></b>
+      <input type = "email" style="width:10;height:20px;" required>  </input>
+       <br><br>
+
+      <b><label>Phone:</label></b>
+      <input type = "number" style="width:10;height:20px;">  </input>
+       <br><br>
+
+      <b><label style="text-align: top;">Message:<sup color="red">*</sup></label></b>
+                  <textarea rows="4" cols="40" name="text" placeholder="Enter text" required></textarea>
+       <br><br>
+
+      <button>Submit</button>       <!--Placed Submit Button since this is a contact us form-->
+
+ </body>
+</html>

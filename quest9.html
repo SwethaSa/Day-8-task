@@ -1,0 +1,72 @@
+<!--9.Write HTML input tags snippet to show default values for all Form elements.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer 9</title>
+    <link
+      rel="icon"
+      href="https://cdn1.iconfinder.com/data/icons/zikons/400/--02-512.png" />
+</head>
+<style>  * {
+  box-sizing: border-box;
+}
+    body{
+      background-color:black;
+       border-radius: 50px;
+       }
+    form{
+        font-size: x-large;
+        color:darkgrey;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 800; 
+        margin-left: 5cm; 
+        align-items: center;
+      
+      }
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+  
+}</style>
+<body>
+    <form>
+        <div class="column1">
+    <label>Search:</label><br>
+      <input type="search" value="Name" /><br><br>
+      <label>Name:</label>
+      <input type="text" value="Swetha" /><br /><br />
+      <label>Email:</label>
+      <input type="email" value="swetha@gmail.com"/><br /><br />
+      <label>Password:</label>
+      <input type="password" value="swe27"/><br /><br />
+      <label>Mobile Number:</label>
+      <input type="number" value="1234566321"/><br /><br />
+      <label>Telephone Number:</label>
+      <input type="tel" value="1234566545"/><br /><br />
+      <label>Gender:</label><br />
+      <input type="radio" name="test">Male</input><br />
+      <input type="radio" name="test" checked>Female</input><br /><br />
+      </div>
+     <div class="column2">
+      <label>Employee Type:</label><br />
+      <input type="checkbox" checked>Salaried</input>
+      <input type="checkbox">Unemployed</input><br /><br />
+      <label>Choose your favorite color:</label><br>
+      <input type="color" value="#cd7672"></input><br /><br />
+      <label>Range:</label><br>
+      <input type="range" value="10" /><br /><br />
+      <input type="button" value="Next">Next Page:</button><br><br>
+      <input type="submit" value="done"/></div>
+</body>
+</html>

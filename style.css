@@ -1,0 +1,79 @@
+body {
+  border: 5px solid black;
+  margin-top: 240px;
+  margin-left: 400px;
+  width: 40%;
+  padding: 10px;
+}
+mark {
+  background: red;
+  color: white;
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 15px;
+  margin-top: 5cm;
+}
+input {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+}
+.checkbox {
+  margin-left: 20px;
+  font-size: larger;
+  font-weight: 700;
+}
+.checkbox > input {
+  accent-color: black;
+}
+
+.int1 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  border-bottom-color: black;
+  border-bottom-width: 3px;
+  margin-left: 20px;
+}
+.int2 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  border-bottom-color: black;
+  border-bottom-width: 3px;
+  float: right;
+  margin-right: 25px;
+}
+.int3 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  border-bottom-color: black;
+  border-bottom-width: 3px;
+  margin-left: 22px;
+}
+.int4 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  border-bottom-color: black;
+  border-bottom-width: 3px;
+  float: right;
+  margin-right: 25px;
+}
+.first {
+  margin-left: 20px;
+}
+.last {
+  margin-left: 203px;
+}
+.ctr {
+  margin-left: 158px;
+}
+.mdl {
+  margin-left: 140px;
+}
